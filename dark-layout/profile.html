@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Template Four</title>
+    <!-- Icon Template -->
+    <link rel="icon" href="../images/avatar.png">
+    <link rel="shortcut" href="../images/avatar.png">
+    <link rel="apple-touch-icon" href="../images/avatar.png">
+    <!-- Open Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../CSS/all.min.css">
+    <!-- Render Elements To Normally -->
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <!-- My Framework -->
+    <link rel="stylesheet" href="../CSS/ALEX-FW.css">
+    <!-- Main File CSS -->
+    <link rel="stylesheet" href="../CSS/main.css">
+    <!-- Main Dark Layout File -->
+    <link rel="stylesheet" href="../CSS/dark-layout.css">
+</head>
+
+<body>
+    <div class="parent d-flex">
+        <!-- Sidebar -->
+        <aside class="sidebar padd-inline-x20 p-relative index-1 bg-1c">
+            <h1 class="fs-x22 padd-x15 marg-top-x10 marg-bottom-x30 marg-i-auto w-fit p-relative">Alex</h1>
+            <nav class="d-grid gap-x5">
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="index.html">
+                    <i class="fa-regular fa-chart-bar fa-fw marg-right-x5"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="settings.html">
+                    <i class="fa-solid fa-gear fa-fw marg-right-x5"></i>
+                    <span>Settings</span>
+                </a>
+                <a class="active fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="profile.html">
+                    <i class="fa-regular fa-user fa-fw marg-right-x5 marg-right-x5"></i>
+                    <span>Profile</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="projects.html">
+                    <i class="fa-solid fa-diagram-project fa-fw marg-right-x5"></i>
+                    <span>Projects</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="courses.html">
+                    <i class="fa-solid fa-graduation-cap fa-fw marg-right-x5"></i>
+                    <span>Courses</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="friends.html">
+                    <i class="fa-regular fa-circle-user fa-fw marg-right-x5"></i>
+                    <span>Friends</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="files.html">
+                    <i class="fa-regular fa-file fa-fw marg-right-x5"></i>
+                    <span>Files</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="plans.html">
+                    <i class="fa-regular fa-credit-card fa-fw marg-right-x5"></i>
+                    <span>Plans</span>
+                </a>
+            </nav>
+        </aside>
+        <!-- Content -->
+        <div class="content f-grow-1 o-hidden">
+            <!-- Header -->
+            <header
+                class="d-flex a-items-center j-content-between padd-inline-x20 padd-block-x15 bg-white p-relative index-0">
+                <div class="search p-relative fs-x14">
+                    <input class="b-radius-x10 h-x100 trans-300ms" type="search" placeholder="Type A Keyword">
+                    <i class="fa-solid fa-magnifying-glass p-center-y left-x10px c-grey"></i>
+                </div>
+                <input class="d-none" type="checkbox" id="show">
+                <label class="fa-solid fa-bars d-none" for="show"></label>
+                <div class="box d-flex a-items-center gap-x15">
+                    <a class="light-layout fa-regular fa-sun fs-x22" href="../profile.html"></a>
+                    <i class="fa-regular fa-bell fa-lg c-pointer p-relative"></i>
+                    <img class="w-x35px b-radius-circle c-pointer"
+                        src="https://scontent.fcai19-8.fna.fbcdn.net/v/t1.6435-9/39060334_1610644059047409_1742733785520144384_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=AdYQLKN0Fz4AX8y5uqp&_nc_ht=scontent.fcai19-8.fna&oh=00_AfDL_CLIScT_7rKO5LZ2LN4GAIdpTVJUbX6z66ZYcutqVQ&oe=642E46E2"
+                        alt="avatar">
+                </div>
+            </header>
+            <!-- Title -->
+            <h2 class="title padd-x20 fs-x32 l-spacing-m1">Profile</h2>
+            <!-- Profile Page -->
+            <div class="profile-page padd-inline-x20 padd-bottom-x20 d-grid gap-x20">
+                <!-- Overview -->
+                <div class="overview bg-1c w-shadow b-radius-x10 o-hidden padd-x20 d-flex a-items-center">
+                    <div class="child-1 d-grid gap-x15 j-items-center padd-inline-x40">
+                        <img class="w-x35px b-radius-circle"
+                            src="https://scontent.fcai19-8.fna.fbcdn.net/v/t1.6435-9/39060334_1610644059047409_1742733785520144384_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=AdYQLKN0Fz4AX8y5uqp&_nc_ht=scontent.fcai19-8.fna&oh=00_AfDL_CLIScT_7rKO5LZ2LN4GAIdpTVJUbX6z66ZYcutqVQ&oe=642E46E2"
+                            alt="avatar">
+                        <h3>Ali Mohamed</h3>
+                        <p class="fw-500 c-grey">Level 20</p>
+                        <span class="progress h-x10px b-radius-x5"></span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star c-orange fs-x13"></i>
+                            <i class="fa-solid fa-star c-orange fs-x13"></i>
+                            <i class="fa-solid fa-star c-orange fs-x13"></i>
+                            <i class="fa-solid fa-star c-orange fs-x13"></i>
+                            <i class="fa-solid fa-star c-orange fs-x13"></i>
+                        </div>
+                        <p class="fs-x13 c-grey fw-500">550 Rating</p>
+                    </div>
+                    <div class="child-2 f-grow-1">
+                        <div class="box padd-left-x20 padd-bottom-x20 marg-bottom-x20">
+                            <h4 class="marg-bottom-x10 c-grey fw-500 fs-x15">General Information</h4>
+                            <div class="info d-flex f-wrap a-items-center row-gap-x10">
+                                <p class="fs-x14 fw-500 f-grow-1"><span class="c-grey">Full Name:</span> Ali Mohamed</p>
+                                <p class="fs-x14 fw-500 f-grow-1"><span class="c-grey">Gender:</span> Male</p>
+                                <p class="fs-x14 fw-500 f-grow-1"><span class="c-grey">Country:</span> Egypt</p>
+                                <div class="f-grow-1">
+                                    <input class="d-none" type="checkbox" id="one" checked>
+                                    <label class="check" for="one"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box padd-left-x20 padd-bottom-x20 marg-bottom-x20">
+                            <h4 class="marg-bottom-x10 c-grey fw-500 fs-x15">Personal Information</h4>
+                            <div class="info d-flex f-wrap a-items-center row-gap-x10">
+                                <p class="fs-x14 fw-500 f-grow-1"><span class="c-grey">Email:</span> o@nn.sa</p>
+                                <p class="fs-x14 fw-500 f-grow-1"><span class="c-grey">Phone:</span> 019123456789</p>
+                                <p class="fs-x14 fw-500 f-grow-1"><span class="c-grey">Date Of Birth:</span> <time
+                                        datetime="1998-3-7">7/3/1998</time></p>
+                                <div class="f-grow-1">
+                                    <input class="d-none" type="checkbox" id="two">
+                                    <label class="check" for="two"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box padd-left-x20 padd-bottom-x20 marg-bottom-x20">
+                            <h4 class="marg-bottom-x10 c-grey fw-500 fs-x15">Job Information</h4>
+                            <div class="info d-flex f-wrap a-items-center row-gap-x10">
+                                <p class="fs-x14 fw-500 f-grow-1"><span class="c-grey">Title:</span> Front End Developer
+                                </p>
+                                <p class="fs-x14 fw-500 f-grow-1"><span class="c-grey">Programming Language:</span>
+                                    JavaScript</p>
+                                <p class="fs-x14 fw-500 f-grow-1"><span class="c-grey">Years Of Experience:</span> 5+
+                                </p>
+                                <div class="f-grow-1">
+                                    <input class="d-none" type="checkbox" id="three" checked>
+                                    <label class="check" for="three"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box padd-left-x20">
+                            <h4 class="marg-bottom-x10 c-grey fw-500 fs-x15">Billing Information</h4>
+                            <div class="info d-flex f-wrap a-items-center row-gap-x10">
+                                <p class="fs-x14 fw-500 f-grow-1"><span class="c-grey">Payment Method:</span> Paypal</p>
+                                <p class="fs-x14 fw-500 f-grow-1"><span class="c-grey">Email:</span> email@website.com
+                                </p>
+                                <p class="fs-x14 fw-500 f-grow-1"><span class="c-grey">Subscription:</span> Monthly</p>
+                                <div class="f-grow-1">
+                                    <input class="d-none" type="checkbox" id="four">
+                                    <label class="check" for="four"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Other Data -->
+                <div class="other-data d-flex gap-x20">
+                    <div class="my-skills bg-1c w-shadow b-radius-x10 o-hidden padd-x20 f-grow-1">
+                        <h3 class="fs-x24 marg-bottom-x15 l-spacing-m1">My Skills</h3>
+                        <p class="marg-bottom-x20 fs-x15 fw-500 c-grey">Complete Skills List</p>
+                        <ul>
+                            <li>
+                                <ul class="d-flex f-wrap gap-x5 padd-block-x15">
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">HTML</li>
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">Pugjs
+                                    </li>
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">HAML</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="d-flex f-wrap gap-x5 padd-block-x15">
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">CSS</li>
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">SASS</li>
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">Stylus
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="d-flex f-wrap gap-x5 padd-block-x15">
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">
+                                        JavaScript</li>
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">
+                                        TypeScript</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="d-flex f-wrap gap-x5 padd-block-x15">
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">Vuejs
+                                    </li>
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">Reactjs
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="d-flex f-wrap gap-x5 padd-block-x15">
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">Jest</li>
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">Jasmine
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="d-flex f-wrap gap-x5 padd-block-x15">
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">PHP</li>
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">Laravel
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="d-flex f-wrap gap-x5 padd-block-x15">
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">Python
+                                    </li>
+                                    <li class="padd-block-x5 padd-inline-x10 fs-x14 bg-35 b-radius-x6 fw-500">Django
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="latest-activities bg-1c w-shadow b-radius-x10 o-hidden padd-x20 f-grow-2">
+                        <h3 class="fs-x24 marg-bottom-x15 l-spacing-m1">Latest Activities</h3>
+                        <p class="marg-bottom-x20 fs-x15 fw-500 c-grey">Latest Activities Done By The User</p>
+                        <div class="box d-flex gap-x10 a-items-center padd-bottom-x20">
+                            <img class="w-x65px" src="../images/activity-01.png" alt="activity-01">
+                            <div class="info f-grow-1 d-flex j-content-between row-gap-x20">
+                                <div>
+                                    <h4 class="fw-600 marg-bottom-x10">Store</h4>
+                                    <p class="c-grey fw-500">Bought The Mastering Python Course</p>
+                                </div>
+                                <div>
+                                    <time class="fw-600 marg-bottom-x10 d-block text-end" datetime="18:10">18:10</time>
+                                    <p class="c-grey">Yesterday</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box d-flex gap-x10 a-items-center padd-block-x20">
+                            <img class="w-x65px" src="../images/activity-02.png" alt="activity-02">
+                            <div class="info f-grow-1 d-flex j-content-between row-gap-x20">
+                                <div>
+                                    <h4 class="fw-600 marg-bottom-x10">Academy</h4>
+                                    <p class="c-grey fw-500">Got The PHP Certificate</p>
+                                </div>
+                                <div>
+                                    <time class="fw-600 marg-bottom-x10 d-block text-end" datetime="16:05">16:05</time>
+                                    <p class="c-grey">Yesterday</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box d-flex gap-x10 a-items-center padd-block-x20">
+                            <img class="w-x65px" src="../images/activity-03.png" alt="activity-03">
+                            <div class="info f-grow-1 d-flex j-content-between row-gap-x20">
+                                <div>
+                                    <h4 class="fw-600 marg-bottom-x10">Badges</h4>
+                                    <p class="c-grey fw-500">Unlocked The 10 Skills Badge</p>
+                                </div>
+                                <div>
+                                    <time class="fw-600 marg-bottom-x10 d-block text-end" datetime="18:05">18:05</time>
+                                    <p class="c-grey">Yesterday</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box d-flex gap-x10 a-items-center padd-top-x20">
+                            <img class="w-x65px" src="../images/activity-01.png" alt="activity-01">
+                            <div class="info f-grow-1 d-flex j-content-between row-gap-x20">
+                                <div>
+                                    <h4 class="fw-600 marg-bottom-x10">Store</h4>
+                                    <p class="c-grey fw-500">Bought The Typescript Course</p>
+                                </div>
+                                <div>
+                                    <time class="fw-600 marg-bottom-x10 d-block text-end" datetime="12:05">12:05</time>
+                                    <p class="c-grey">Yesterday</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

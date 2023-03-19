@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Files - Template Four</title>
+    <!-- Icon Template -->
+    <link rel="icon" href="../images/avatar.png">
+    <link rel="shortcut" href="../images/avatar.png">
+    <link rel="apple-touch-icon" href="../images/avatar.png">
+    <!-- Open Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../CSS/all.min.css">
+    <!-- Render Elements To Normally -->
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <!-- My Framework -->
+    <link rel="stylesheet" href="../CSS/ALEX-FW.css">
+    <!-- Main File CSS -->
+    <link rel="stylesheet" href="../CSS/main.css">
+    <!-- Main Dark Layout File -->
+    <link rel="stylesheet" href="../CSS/dark-layout.css">
+</head>
+
+<body>
+    <div class="parent d-flex">
+        <!-- Sidebar -->
+        <aside class="sidebar padd-inline-x20 p-relative index-1 bg-1c">
+            <h1 class="fs-x22 padd-x15 marg-top-x10 marg-bottom-x30 marg-i-auto w-fit p-relative">Alex</h1>
+            <nav class="d-grid gap-x5">
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="index.html">
+                    <i class="fa-regular fa-chart-bar fa-fw marg-right-x5"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="settings.html">
+                    <i class="fa-solid fa-gear fa-fw marg-right-x5"></i>
+                    <span>Settings</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="profile.html">
+                    <i class="fa-regular fa-user fa-fw marg-right-x5 marg-right-x5"></i>
+                    <span>Profile</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="projects.html">
+                    <i class="fa-solid fa-diagram-project fa-fw marg-right-x5"></i>
+                    <span>Projects</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="courses.html">
+                    <i class="fa-solid fa-graduation-cap fa-fw marg-right-x5"></i>
+                    <span>Courses</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="friends.html">
+                    <i class="fa-regular fa-circle-user fa-fw marg-right-x5"></i>
+                    <span>Friends</span>
+                </a>
+                <a class="active fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="files.html">
+                    <i class="fa-regular fa-file fa-fw marg-right-x5"></i>
+                    <span>Files</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="plans.html">
+                    <i class="fa-regular fa-credit-card fa-fw marg-right-x5"></i>
+                    <span>Plans</span>
+                </a>
+            </nav>
+        </aside>
+        <!-- Content -->
+        <div class="content f-grow-1 o-hidden">
+            <!-- Header -->
+            <header
+                class="d-flex a-items-center j-content-between padd-inline-x20 padd-block-x15 bg-white p-relative index-0">
+                <div class="search p-relative fs-x14">
+                    <input class="b-radius-x10 h-x100 trans-300ms" type="search" placeholder="Type A Keyword">
+                    <i class="fa-solid fa-magnifying-glass p-center-y left-x10px c-grey"></i>
+                </div>
+                <input class="d-none" type="checkbox" id="show">
+                <label class="fa-solid fa-bars d-none" for="show"></label>
+                <div class="box d-flex a-items-center gap-x15">
+                    <a class="light-layout fa-regular fa-sun fs-x22" href="../files.html"></a>
+                    <i class="fa-regular fa-bell fa-lg c-pointer p-relative"></i>
+                    <img class="w-x35px b-radius-circle c-pointer"
+                        src="https://scontent.fcai19-8.fna.fbcdn.net/v/t1.6435-9/39060334_1610644059047409_1742733785520144384_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=AdYQLKN0Fz4AX8y5uqp&_nc_ht=scontent.fcai19-8.fna&oh=00_AfDL_CLIScT_7rKO5LZ2LN4GAIdpTVJUbX6z66ZYcutqVQ&oe=642E46E2"
+                        alt="avatar">
+                </div>
+            </header>
+            <!-- Title -->
+            <h2 class="title padd-x20 fs-x32 l-spacing-m1">Files</h2>
+            <!-- Files Page -->
+            <div class="files-page padd-inline-x20 padd-bottom-x20 d-flex a-items-start gap-x20">
+                <div class="files f-grow-1 d-grid gap-x20">
+                    <!-- PDF File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/pdf.svg" alt="pdf">
+                            <p class="fw-500 fs-x15">my-file.pdf</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x14 marg-block-x15 d-block">Alex</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2020-06-20">20/06/2020</time>
+                            <span class="c-grey">5.5MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- AVI File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/avi.svg" alt="avi">
+                            <p class="fw-500 fs-x15">my-file.avi</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Admin</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">12.5MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- EPS File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/eps.svg" alt="eps">
+                            <p class="fw-500 fs-x15">my-file.eps</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Uploader</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">2.7MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- PSD File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/psd.svg" alt="psd">
+                            <p class="fw-500 fs-x15">my-file.psd</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Osama</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">15.1MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- DLL File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/dll.svg" alt="dll">
+                            <p class="fw-500 fs-x15">my-file.dll</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Coder</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">2.2MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- PNG File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/png.svg" alt="png">
+                            <p class="fw-500 fs-x15">my-file.png</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Designer</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">1.1MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- DLL File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/dll.svg" alt="dll">
+                            <p class="fw-500 fs-x15">my-file.dll</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Coder</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">2.2MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- PNG File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/png.svg" alt="png">
+                            <p class="fw-500 fs-x15">my-file.png</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Designer</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">1.1MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- PSD File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/psd.svg" alt="psd">
+                            <p class="fw-500 fs-x15">my-file.psd</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Osama</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">15.1MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- PDF File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/pdf.svg" alt="pdf">
+                            <p class="fw-500 fs-x15">my-file.pdf</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x14 marg-block-x15 d-block">Alex</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2020-06-20">20/06/2020</time>
+                            <span class="c-grey">5.5MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- AVI File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/avi.svg" alt="avi">
+                            <p class="fw-500 fs-x15">my-file.avi</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Admin</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">12.5MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- EPS File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/eps.svg" alt="eps">
+                            <p class="fw-500 fs-x15">my-file.eps</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Uploader</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">2.7MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- PDF File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/pdf.svg" alt="pdf">
+                            <p class="fw-500 fs-x15">my-file.pdf</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x14 marg-block-x15 d-block">Alex</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2020-06-20">20/06/2020</time>
+                            <span class="c-grey">5.5MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- AVI File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/avi.svg" alt="avi">
+                            <p class="fw-500 fs-x15">my-file.avi</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Admin</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">12.5MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- EPS File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/eps.svg" alt="eps">
+                            <p class="fw-500 fs-x15">my-file.eps</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Uploader</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">2.7MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- PSD File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/psd.svg" alt="psd">
+                            <p class="fw-500 fs-x15">my-file.psd</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Osama</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">15.1MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- DLL File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/dll.svg" alt="dll">
+                            <p class="fw-500 fs-x15">my-file.dll</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Coder</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">2.2MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- PNG File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/png.svg" alt="png">
+                            <p class="fw-500 fs-x15">my-file.png</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Designer</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">1.1MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- DLL File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/dll.svg" alt="dll">
+                            <p class="fw-500 fs-x15">my-file.dll</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Coder</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">2.2MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- PNG File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/png.svg" alt="png">
+                            <p class="fw-500 fs-x15">my-file.png</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Designer</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">1.1MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- PSD File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/psd.svg" alt="psd">
+                            <p class="fw-500 fs-x15">my-file.psd</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Osama</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">15.1MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- PDF File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/pdf.svg" alt="pdf">
+                            <p class="fw-500 fs-x15">my-file.pdf</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x14 marg-block-x15 d-block">Alex</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2020-06-20">20/06/2020</time>
+                            <span class="c-grey">5.5MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- AVI File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/avi.svg" alt="avi">
+                            <p class="fw-500 fs-x15">my-file.avi</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Admin</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">12.5MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                    <!-- EPS File -->
+                    <div class="box bg-1c w-shadow b-radius-x10 o-hidden padd-x10 p-relative">
+                        <div class="image text-center">
+                            <img class="w-x65px marg-top-x15 marg-bottom-x20 v-middle trans-300ms"
+                                src="../images/eps.svg" alt="eps">
+                            <p class="fw-500 fs-x15">my-file.eps</p>
+                        </div>
+                        <span class="c-grey fw-500 fs-x13 marg-block-x15 d-block">Uploader</span>
+                        <div class="info d-flex j-content-between fs-x13 fw-500 padd-top-x10">
+                            <time class="c-grey" datetime="2021-05-16">16/5/2021</time>
+                            <span class="c-grey">2.7MB</span>
+                        </div>
+                        <i class="fa-solid fa-download c-grey p-absolute left-x10px top-x10px c-pointer"></i>
+                    </div>
+                </div>
+                <div class="files-statistics bg-1c w-shadow b-radius-x6 o-hidden padd-x20">
+                    <h3 class="fs-x25 marg-bottom-x15 l-spacing-m1">Files Statistics</h3>
+                    <div class="box b-radius-x6 d-flex gap-x10 a-items-center padd-x10 marg-bottom-x15">
+                        <i class="fa-regular fa-file-pdf w-x40px line-x40px text-center c-blue f-shrink-0"></i>
+                        <div class="f-grow-1 fs-x13">
+                            <h4 class="fw-600 marg-bottom-x5">PDF Files</h4>
+                            <span class="fs-x13 c-grey fw-500">130</span>
+                        </div>
+                        <span class="fs-x13 c-grey fw-500">6.5GB</span>
+                    </div>
+                    <div class="box b-radius-x6 d-flex gap-x10 a-items-center padd-x10 marg-bottom-x15">
+                        <i class="fa-regular fa-images w-x40px line-x40px text-center c-green f-shrink-0"></i>
+                        <div class="f-grow-1 fs-x13">
+                            <h4 class="fw-600 marg-bottom-x5">Images</h4>
+                            <span class="fs-x13 c-grey fw-500">115 Files</span>
+                        </div>
+                        <span class="fs-x13 c-grey fw-500">3.5GB</span>
+                    </div>
+                    <div class="box b-radius-x6 d-flex gap-x10 a-items-center padd-x10 marg-bottom-x15">
+                        <i class="fa-regular fa-file-word w-x40px line-x40px text-center c-red f-shrink-0"></i>
+                        <div class="f-grow-1 fs-x13">
+                            <h4 class="fw-600 marg-bottom-x5">Word Files</h4>
+                            <span class="fs-x13 c-grey fw-500">110 Files</span>
+                        </div>
+                        <span class="fs-x13 c-grey fw-500">3.2GB</span>
+                    </div>
+                    <div class="box b-radius-x6 d-flex gap-x10 a-items-center padd-x10 marg-bottom-x15">
+                        <i class="fa-solid fa-file-csv w-x40px line-x40px text-center c-orange f-shrink-0"></i>
+                        <div class="f-grow-1 fs-x13">
+                            <h4 class="fw-600 marg-bottom-x5">CSV Files</h4>
+                            <span class="fs-x13 c-grey fw-500">99 Files</span>
+                        </div>
+                        <span class="fs-x13 c-grey fw-500">2.9GB</span>
+                    </div>
+                    <a class="d-block w-fit padd-block-x10 padd-inline-x15 line-1-5 marg-i-auto b-radius-x6 fs-x13 fw-500 c-white bg-blue trans-300ms"
+                        href="#0">
+                        <i class="fa-solid fa-angles-up c-white marg-right-x10"></i>
+                        Upload
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

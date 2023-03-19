@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Template Four</title>
+    <!-- Icon Template -->
+    <link rel="icon" href="../images/avatar.png">
+    <link rel="shortcut" href="../images/avatar.png">
+    <link rel="apple-touch-icon" href="../images/avatar.png">
+    <!-- Open Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="../CSS/all.min.css">
+    <!-- Render Elements To Normally -->
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <!-- My Framework -->
+    <link rel="stylesheet" href="../CSS/ALEX-FW.css">
+    <!-- Main File CSS -->
+    <link rel="stylesheet" href="../CSS/main.css">
+    <!-- Main Dark Layout File -->
+    <link rel="stylesheet" href="../CSS/dark-layout.css">
+</head>
+
+<body>
+    <div class="parent d-flex">
+        <!-- Sidebar -->
+        <aside class="sidebar padd-inline-x20 p-relative index-1 bg-1c">
+            <h1 class="fs-x22 padd-x15 marg-top-x10 marg-bottom-x30 marg-i-auto w-fit p-relative">Alex</h1>
+            <nav class="d-grid gap-x5">
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="index.html">
+                    <i class="fa-regular fa-chart-bar fa-fw marg-right-x5"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a class="active fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="settings.html">
+                    <i class="fa-solid fa-gear fa-fw marg-right-x5"></i>
+                    <span>Settings</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="profile.html">
+                    <i class="fa-regular fa-user fa-fw marg-right-x5 marg-right-x5"></i>
+                    <span>Profile</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="projects.html">
+                    <i class="fa-solid fa-diagram-project fa-fw marg-right-x5"></i>
+                    <span>Projects</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="courses.html">
+                    <i class="fa-solid fa-graduation-cap fa-fw marg-right-x5"></i>
+                    <span>Courses</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="friends.html">
+                    <i class="fa-regular fa-circle-user fa-fw marg-right-x5"></i>
+                    <span>Friends</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="files.html">
+                    <i class="fa-regular fa-file fa-fw marg-right-x5"></i>
+                    <span>Files</span>
+                </a>
+                <a class="fs-x14 b-radius-x6 trans-300ms fw-500 p-relative" href="plans.html">
+                    <i class="fa-regular fa-credit-card fa-fw marg-right-x5"></i>
+                    <span>Plans</span>
+                </a>
+            </nav>
+        </aside>
+        <!-- Content -->
+        <div class="content f-grow-1 o-hidden">
+            <!-- Header -->
+            <header
+                class="d-flex a-items-center j-content-between padd-inline-x20 padd-block-x15 bg-white p-relative index-0">
+                <div class="search p-relative fs-x14">
+                    <input class="b-radius-x10 h-x100 trans-300ms" type="search" placeholder="Type A Keyword">
+                    <i class="fa-solid fa-magnifying-glass p-center-y left-x10px c-grey"></i>
+                </div>
+                <input class="d-none" type="checkbox" id="show">
+                <label class="fa-solid fa-bars d-none" for="show"></label>
+                <div class="box d-flex a-items-center gap-x15">
+                    <a class="light-layout fa-regular fa-sun fs-x22" href="../settings.html"></a>
+                    <i class="fa-regular fa-bell fa-lg c-pointer p-relative"></i>
+                    <img class="w-x35px b-radius-circle c-pointer"
+                        src="https://scontent.fcai19-8.fna.fbcdn.net/v/t1.6435-9/39060334_1610644059047409_1742733785520144384_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=AdYQLKN0Fz4AX8y5uqp&_nc_ht=scontent.fcai19-8.fna&oh=00_AfDL_CLIScT_7rKO5LZ2LN4GAIdpTVJUbX6z66ZYcutqVQ&oe=642E46E2"
+                        alt="avatar">
+                </div>
+            </header>
+            <!-- Title -->
+            <h2 class="title padd-x20 fs-x32 l-spacing-m1">Settings</h2>
+            <!-- Settings Page -->
+            <div class="settings-page padd-inline-x20 padd-bottom-x20 d-grid gap-x20">
+                <!-- Site Control -->
+                <div class="site-control bg-1c w-shadow b-radius-x10 o-hidden padd-x20">
+                    <h3 class="fs-x24 marg-bottom-x15 l-spacing-m1">Site Control</h3>
+                    <p class="marg-bottom-x20 fs-x15 fw-500 c-grey">Control The Website If There Is Maintenance</p>
+                    <div class="box d-flex j-content-between a-items-center">
+                        <div class="text">
+                            <h4 class="fs-x16 fw-500 marg-bottom-x5">Website Control</h4>
+                            <p class="marg-bottom-x20 fs-x13 fw-500 c-grey">Open/Close Website And Type The Reason</p>
+                        </div>
+                        <input class="d-none" type="checkbox" id="nth-1">
+                        <label class="check f-shrink-0" for="nth-1"></label>
+                    </div>
+                    <textarea class="w-x100 b-radius-x6 padd-x10 fs-x13 resize-n"
+                        placeholder="Close Message Content"></textarea>
+                </div>
+                <!-- General Info -->
+                <div class="general-info bg-1c w-shadow b-radius-x10 o-hidden padd-x20">
+                    <h3 class="fs-x24 marg-bottom-x15 l-spacing-m1">General Info</h3>
+                    <p class="marg-bottom-x20 fs-x15 fw-500 c-grey">General Information About Your Account</p>
+                    <div class="f-name fs-x14 fw-500 marg-bottom-x15">
+                        <label class="c-grey" for="f-name">First Name</label>
+                        <input class="w-x100 padd-x10 b-radius-x6 marg-top-x10" type="text" placeholder="First Name"
+                            id="f-name">
+                    </div>
+                    <div class="l-name fs-x14 fw-500 marg-bottom-x15">
+                        <label class="c-grey" for="l-name">Last Name</label>
+                        <input class="w-x100 padd-x10 b-radius-x6 marg-top-x10" type="text" placeholder="Last Name"
+                            id="l-name">
+                    </div>
+                    <div
+                        class="email fs-x14 fw-500 d-flex f-wrap a-items-center row-gap-x10 row-gap-x10 column-gap-x15">
+                        <label class="c-grey w-x100" for="email">Email</label>
+                        <input class="f-grow-1 m-w100 padd-x10 b-radius-x6" type="email" value="o@nn.sa" id="email"
+                            disabled>
+                        <a class="c-blue fs-x16" href="#0">Change</a>
+                    </div>
+                </div>
+                <!-- Security Info -->
+                <div class="security-info bg-1c w-shadow b-radius-x10 o-hidden padd-x20">
+                    <h3 class="fs-x24 marg-bottom-x15 l-spacing-m1">Security Info</h3>
+                    <p class="marg-bottom-x20 fs-x15 fw-500 c-grey">Security Information About Your Account</p>
+                    <div class="box d-flex j-content-between a-items-center">
+                        <div class="text">
+                            <h4 class="fw-500 marg-bottom-x5">Password</h4>
+                            <p class="c-grey fs-x13">Last Change On <time class="c-grey"
+                                    datetime="2021-10-25">25/10/2021</time></p>
+                        </div>
+                        <a class="padd-block-x5 padd-inline-x10 b-radius-x6 bg-blue c-white fw-500 trans-300ms"
+                            href="#0">Change</a>
+                    </div>
+                    <div class="box d-flex j-content-between a-items-center padd-block-x25 marg-block-x25">
+                        <div class="text">
+                            <h4 class="fw-500 marg-bottom-x5">Two-Factor Authentication</h4>
+                            <p class="c-grey fs-x13">Enable/Disable The Feature</p>
+                        </div>
+                        <input class="d-none" type="checkbox" id="nth-2" checked>
+                        <label class="check f-shrink-0" for="nth-2"></label>
+                    </div>
+                    <div class="box d-flex j-content-between a-items-center">
+                        <div class="text">
+                            <h4 class="fw-500 marg-bottom-x5">Devices</h4>
+                            <p class="c-grey fs-x13">Check The Login Devices List</p>
+                        </div>
+                        <a class="padd-block-x5 padd-inline-x10 b-radius-x6 bg-35 fw-500 trans-300ms"
+                            href="#0">Devices</a>
+                    </div>
+                </div>
+                <!-- Social Info -->
+                <div class="social-info bg-1c w-shadow b-radius-x10 o-hidden padd-x20">
+                    <h3 class="fs-x24 marg-bottom-x15 l-spacing-m1">Social Info</h3>
+                    <p class="marg-bottom-x20 fs-x15 fw-500 c-grey">Social Media Information</p>
+                    <div class="twitter d-flex gap-x10 b-radius-x6 bg-f27 marg-bottom-x15">
+                        <i
+                            class="fa-brands fa-twitter w-x40px line-x40px text-center c-grey fs-x15 trans-300ms f-shrink-0"></i>
+                        <input class="f-grow-1 fs-x13 fw-500" type="text" placeholder="Twitter Username">
+                    </div>
+                    <div class="facebook d-flex gap-x10 b-radius-x6 bg-f27 marg-bottom-x15">
+                        <i
+                            class="fa-brands fa-facebook-f w-x40px line-x40px text-center c-grey fs-x15 trans-300ms f-shrink-0"></i>
+                        <input class="f-grow-1 fs-x13 fw-500" type="text" placeholder="Facebook Username">
+                    </div>
+                    <div class="linkedin d-flex gap-x10 b-radius-x6 bg-f27 marg-bottom-x15">
+                        <i
+                            class="fa-brands fa-linkedin w-x40px line-x40px text-center c-grey fs-x15 trans-300ms f-shrink-0"></i>
+                        <input class="f-grow-1 fs-x13 fw-500" type="text" placeholder="Linkedin Username">
+                    </div>
+                    <div class="youtube d-flex gap-x10 b-radius-x6 bg-f27 marg-bottom-x15">
+                        <i
+                            class="fa-brands fa-youtube w-x40px line-x40px text-center c-grey fs-x15 trans-300ms f-shrink-0"></i>
+                        <input class="f-grow-1 fs-x13 fw-500" type="text" placeholder="Youtube Username">
+                    </div>
+                </div>
+                <!-- Widgets Control -->
+                <div class="widgets-control bg-1c w-shadow b-radius-x10 o-hidden padd-x20">
+                    <h3 class="fs-x24 marg-bottom-x15 l-spacing-m1">Widgets Control</h3>
+                    <p class="marg-bottom-x20 fs-x15 fw-500 c-grey">Show/Hide Widgets</p>
+                    <div class="marg-bottom-x20">
+                        <input class="d-none" type="checkbox" id="check-1" checked>
+                        <label class="p-relative padd-left-x30 fw-500 c-pointer" for="check-1">Quick Draft</label>
+                    </div>
+                    <div class="marg-bottom-x20">
+                        <input class="d-none" type="checkbox" id="check-2" checked>
+                        <label class="p-relative padd-left-x30 fw-500 c-pointer" for="check-2">Yearly Targets</label>
+                    </div>
+                    <div class="marg-bottom-x20">
+                        <input class="d-none" type="checkbox" id="check-3" checked>
+                        <label class="p-relative padd-left-x30 fw-500 c-pointer" for="check-3">Tickets
+                            Statistics</label>
+                    </div>
+                    <div class="marg-bottom-x20">
+                        <input class="d-none" type="checkbox" id="check-4" checked>
+                        <label class="p-relative padd-left-x30 fw-500 c-pointer" for="check-4">Latest News</label>
+                    </div>
+                    <div class="marg-bottom-x20">
+                        <input class="d-none" type="checkbox" id="check-5">
+                        <label class="p-relative padd-left-x30 fw-500 c-pointer" for="check-5">Latest Tasks</label>
+                    </div>
+                    <div>
+                        <input class="d-none" type="checkbox" id="check-6" checked>
+                        <label class="p-relative padd-left-x30 fw-500 c-pointer" for="check-6">Top Search Items</label>
+                    </div>
+                </div>
+                <!-- Backup Manager -->
+                <div class="backup-manager bg-1c w-shadow b-radius-x10 o-hidden padd-x20">
+                    <h3 class="fs-x24 marg-bottom-x15 l-spacing-m1">Backup Manager</h3>
+                    <p class="marg-bottom-x20 fs-x15 fw-500 c-grey">Control Backup Time And Location</p>
+                    <div class="box">
+                        <div class="marg-bottom-x20">
+                            <input class="d-none" type="radio" id="daily" name="check-1" checked>
+                            <label class="p-relative padd-left-x30 fw-500 c-pointer" for="daily">Daily</label>
+                        </div>
+                        <div class="marg-bottom-x20">
+                            <input class="d-none" type="radio" id="weekly" name="check-1">
+                            <label class="p-relative padd-left-x30 fw-500 c-pointer" for="weekly">Weekly</label>
+                        </div>
+                        <div class="marg-bottom-x20">
+                            <input class="d-none" type="radio" id="monthly" name="check-1">
+                            <label class="p-relative padd-left-x30 fw-500 c-pointer" for="monthly">Monthly</label>
+                        </div>
+                    </div>
+                    <div class="box d-flex row-gap-x15 column-gap-x10 marg-top-x20">
+                        <input class="d-none" type="radio" name="check-2" id="megaman">
+                        <label class="w-x100 padd-block-x15 text-center b-radius-x10 c-pointer trans-300ms"
+                            for="megaman">
+                            <i class="fa-solid fa-server trans-300ms"></i>
+                            <h4 class="fw-500 marg-top-x10 trans-300ms">Megaman</h4>
+                        </label>
+                        <input class="d-none" type="radio" name="check-2" id="zero" checked>
+                        <label class="w-x100 padd-block-x15 text-center b-radius-x10 c-pointer trans-300ms" for="zero">
+                            <i class="fa-solid fa-server trans-300ms"></i>
+                            <h4 class="fw-500 marg-top-x10 trans-300ms">Zero</h4>
+                        </label>
+                        <input class="d-none" type="radio" name="check-2" id="sigma">
+                        <label class="w-x100 padd-block-x15 text-center b-radius-x10 c-pointer trans-300ms" for="sigma">
+                            <i class="fa-solid fa-server trans-300ms"></i>
+                            <h4 class="fw-500 marg-top-x10 trans-300ms">Sigma</h4>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
