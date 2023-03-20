@@ -841,6 +841,7 @@
             @media (max-width: 767px) {
                 .other-data {
                     flex-direction: column;
+                    gap: 10px;
                 }
                 .other-data > div,
                 .other-data .latest-activities .box time {
