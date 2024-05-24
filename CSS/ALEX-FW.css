@@ -485,6 +485,9 @@
 .c-auto {
     cursor: auto;
 }
+.p-events-auto {
+    pointer-events: auto;
+}
 .p-events-none {
     pointer-events: none;
 }
