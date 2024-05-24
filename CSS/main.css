@@ -13,6 +13,9 @@
             background-color: transparent;
             color: black;
         }
+        html {
+            scroll-behavior: smooth;
+        }
         body {
             font-family: 'Open Sans', sans-serif;
         }
@@ -140,7 +143,7 @@
 @media (min-width: 0) {
     @media (min-width: 0) {
         .sidebar {
-            flex-basis: 225px;
+            flex-basis: 215px;
             flex-shrink: 0;
             box-shadow: 0 0 10px #ddd;
         }
@@ -174,6 +177,8 @@
     @media (max-width: 767px) {
         .sidebar {
             flex-basis: auto;
+        }
+        .sidebar aside {
             padding: 10px;
         }
         .sidebar h1 {
@@ -223,6 +228,12 @@
         @media (min-width: 0) {
             .parent > .content {
                 background-color: #f1f5f9;
+                width: calc(100% - 215px);
+            }
+        }
+        @media (max-width: 767px) {
+            .parent > .content {
+                width: calc(100% - 57.5px);
             }
         }
         @media (max-width: 450px) {
@@ -239,6 +250,9 @@
     /* Header */
     @media (min-width: 0) {
         @media (min-width: 0) {
+            header {
+                box-shadow: 0 0 10px #ddd;
+            }
             header::before {
                 content: "";
                 position: absolute;
@@ -309,7 +323,7 @@
                 background-color: white;
                 padding: 10px;
                 justify-content: center;
-                box-shadow: 0 5px 10px -5px rgb(0 0 0 / 5%);
+                box-shadow: 0 0 10px #ddd;
                 z-index: -2;
                 transition: 300ms;
             }
@@ -1082,6 +1096,48 @@
         }
     }
 }
+/* Scroll To Top */
+@media (min-width: 0) {
+    .to-top {
+        padding-top: 120vh;
+    }
+    .to-top a {
+        top: calc(100vh - 50px);
+        border: 1px solid var(--blue-color);
+        background: #f1f5f9;
+    }
+    .to-top a::before {
+        content: "";
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        border-top: 2px solid var(--blue-color);
+        border-right: 2px solid var(--blue-color);
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -25%) rotate(-45deg);
+        transition: .3s;
+    }
+    .to-top a:hover::before {
+        animation: translate 1s infinite linear;
+    }
+    .to-top a::after {
+        content: "";
+        position: absolute;
+        inset: 0 0 0 0;
+        background-color: var(--blue-color);
+        transform: scale(0);
+        z-index: -1;
+        border-radius: 50%;
+        transition: .3s;
+    }
+    .to-top a:hover::before {
+        border-color: #fff;
+    }
+    .to-top a:hover::after {
+        transform: scale(1);
+    }
+}
 /* Animation */
 @media (min-width: 0) {
     @keyframes spread {
@@ -1106,6 +1162,17 @@
     @keyframes p-top {
         to {
             transform: translateY(-5px);
+        }
+    }
+    @keyframes translate {
+        25% {
+            transform: translate(-50%, -35%) rotate(-45deg);
+        }
+        75% {
+            transform: translate(-50%, -15%) rotate(-45deg);
+        }
+        100% {
+            transform: translate(-50%, -25%) rotate(-45deg);
         }
     }
     @keyframes dark-layout {
